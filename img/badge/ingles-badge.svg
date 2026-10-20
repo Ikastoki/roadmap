@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 106 30" width="106" height="30" role="img" aria-label="inglés">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0"   stop-color="#050505"/>
+      <stop offset="0.5" stop-color="#161616"/>
+      <stop offset="1"   stop-color="#0a0a0a"/>
+    </linearGradient>
+    <!-- Nebulosas con los colores de la bandera -->
+    <radialGradient id="nebulosaAzul" cx="0.25" cy="0.4" r="0.7">
+      <stop offset="0" stop-color="#012169" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#012169" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebulosaRoja" cx="0.85" cy="0.6" r="0.6">
+      <stop offset="0" stop-color="#C8102E" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#C8102E" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="recorte"><rect width="106" height="30" rx="6"/></clipPath>
+    <clipPath id="flagClip"><rect width="22" height="14" rx="2"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#recorte)">
+    <rect width="106" height="30" fill="url(#bg)"/>
+    <rect width="106" height="30" fill="url(#nebulosaAzul)"/>
+    <rect width="106" height="30" fill="url(#nebulosaRoja)"/>
+
+    <!-- Campo de estrellas -->
+    <circle cx="12"  cy="6"  r="0.7" fill="#ffffff" opacity="0.8"/>
+    <circle cx="26"  cy="24" r="0.5" fill="#cfcfcf" opacity="0.5"/>
+    <circle cx="44"  cy="5"  r="0.8" fill="#ffffff" opacity="0.9"/>
+    <circle cx="58"  cy="23" r="0.5" fill="#bdbdbd" opacity="0.5"/>
+    <circle cx="72"  cy="7"  r="0.7" fill="#ffffff" opacity="0.7"/>
+    <circle cx="88"  cy="20" r="0.6" fill="#e0e0e0" opacity="0.6"/>
+    <circle cx="100" cy="6"  r="0.7" fill="#ffffff" opacity="0.8"/>
+    <circle cx="66"  cy="14" r="0.4" fill="#ffffff" opacity="0.4"/>
+    <circle cx="96"  cy="12" r="0.4" fill="#9e9e9e" opacity="0.5"/>
+  </g>
+
+  <!-- Borde fino -->
+  <rect x="0.5" y="0.5" width="105" height="29" rx="6" fill="none" stroke="#3d3d3d"/>
+
+  <!-- Union Jack a color -->
+  <g transform="translate(10,8)">
+    <g clip-path="url(#flagClip)">
+      <!-- Fondo azul -->
+      <rect width="22" height="14" fill="#012169"/>
+      <!-- Diagonales blancas y rojas -->
+      <path d="M0 0 L22 14 M22 0 L0 14" stroke="#ffffff" stroke-width="3.2"/>
+      <path d="M0 0 L22 14 M22 0 L0 14" stroke="#C8102E" stroke-width="1.2"/>
+      <!-- Cruz blanca y roja central -->
+      <path d="M11 0 V14 M0 7 H22" stroke="#ffffff" stroke-width="4.6"/>
+      <path d="M11 0 V14 M0 7 H22" stroke="#C8102E" stroke-width="2.2"/>
+    </g>
+    <rect x="0.4" y="0.4" width="21.2" height="13.2" rx="2" fill="none" stroke="#4a4a4a" stroke-width="0.8"/>
+  </g>
+
+  <!-- Texto -->
+  <text x="40" y="19.5" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="11.5" font-weight="600" letter-spacing="1.5" fill="#f2f2f2">INGLÉS</text>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 30" width="180" height="30" role="img" aria-label="Fullstack Java">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0"   stop-color="#050505"/>
+      <stop offset="0.5" stop-color="#141414"/>
+      <stop offset="1"   stop-color="#0a0a0a"/>
+    </linearGradient>
+    <radialGradient id="nebulosaVerde" cx="0.18" cy="0.5" r="0.55">
+      <stop offset="0" stop-color="#6DB33F" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#6DB33F" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebulosaOro" cx="0.82" cy="0.5" r="0.55">
+      <stop offset="0" stop-color="#d4af37" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#d4af37" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+    <clipPath id="recorte"><rect width="180" height="30" rx="6"/></clipPath>
+  </defs>
+
+  <style>
+    @keyframes snakeVerde { from { stroke-dashoffset: 0;    } to { stroke-dashoffset: -406; } }
+    @keyframes snakeOro   { from { stroke-dashoffset: -203; } to { stroke-dashoffset: -609; } }
+    .snake-verde, .snake-oro { stroke-dasharray: 45 361; animation-duration: 5s; animation-timing-function: linear; animation-iteration-count: infinite; }
+    .snake-verde { animation-name: snakeVerde; }
+    .snake-oro   { animation-name: snakeOro;  }
+  </style>
+
+  <g clip-path="url(#recorte)">
+    <rect width="180" height="30" fill="url(#bg)"/>
+    <rect width="180" height="30" fill="url(#nebulosaVerde)"/>
+    <rect width="180" height="30" fill="url(#nebulosaOro)"/>
+
+    <!-- Estrellas -->
+    <circle cx="40"  cy="6"  r="0.7" fill="#ffffff" opacity="0.8"/>
+    <circle cx="60"  cy="24" r="0.5" fill="#cfcfcf" opacity="0.5"/>
+    <circle cx="90"  cy="5"  r="0.8" fill="#ffffff" opacity="0.9"/>
+    <circle cx="120" cy="24" r="0.5" fill="#bdbdbd" opacity="0.5"/>
+    <circle cx="140" cy="7"  r="0.7" fill="#ffffff" opacity="0.7"/>
+    <circle cx="75"  cy="10" r="0.4" fill="#ffffff" opacity="0.4"/>
+    <circle cx="105" cy="20" r="0.4" fill="#9e9e9e" opacity="0.5"/>
+    <circle cx="32"  cy="22" r="0.6" fill="#6DB33F" opacity="0.7"/>
+    <circle cx="148" cy="23" r="0.6" fill="#d4af37" opacity="0.7"/>
+  </g>
+
+  <!-- Borde base -->
+  <rect x="0.5" y="0.5" width="179" height="29" rx="6" fill="none" stroke="#3d3d3d"/>
+
+  <!-- Snake verde + snake dorado en persecución -->
+  <g fill="none" stroke-linecap="round">
+    <rect class="snake-verde" x="0.5" y="0.5" width="179" height="29" rx="6" stroke="#6DB33F" stroke-width="2.2" opacity="0.4" filter="url(#glow)"/>
+    <rect class="snake-oro"   x="0.5" y="0.5" width="179" height="29" rx="6" stroke="#d4af37" stroke-width="2.2" opacity="0.4" filter="url(#glow)"/>
+    <rect class="snake-verde" x="0.5" y="0.5" width="179" height="29" rx="6" stroke="#8ed35f" stroke-width="1.1"/>
+    <rect class="snake-oro"   x="0.5" y="0.5" width="179" height="29" rx="6" stroke="#f6e27a" stroke-width="1.1"/>
+  </g>
+
+  <!-- Icono Java: taza con vapor -->
+  <g transform="translate(9,8)" fill="none" stroke="#6DB33F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4.6 4.8 c0.8 -0.8 -0.8 -1.6 0 -2.4 c0.8 -0.8 -0.8 -1.6 0 -2.4" stroke-width="1"/>
+    <path d="M7.4 4.8 c0.8 -0.8 -0.8 -1.6 0 -2.4" stroke-width="1"/>
+    <path d="M2.2 6.2 h8.6 v2.3 a4.3 3.6 0 0 1 -8.6 0 z" fill="#6DB33F" fill-opacity="0.15"/>
+    <path d="M10.8 6.8 h1 a1.7 1.7 0 0 1 0 3.4 h-1.2"/>
+    <path d="M1.6 12.6 q5.2 1.6 10.4 0"/>
+  </g>
+
+  <!-- Icono full-stack: capas -->
+  <g transform="translate(156,8)" fill="none" stroke="#d4af37" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M8 1 L14 4 L8 7 L2 4 Z" fill="#d4af37" fill-opacity="0.15"/>
+    <path d="M2 7 L8 10 L14 7"/>
+    <path d="M2 10 L8 13 L14 10"/>
+  </g>
+
+  <!-- Texto -->
+  <text x="90" y="19.5" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="11.5" font-weight="600" letter-spacing="1" fill="#f2f2f2">FULLSTACK JAVA</text>
+</svg>

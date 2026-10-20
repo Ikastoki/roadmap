@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 150" width="600" height="150" role="img" aria-label="Roadmap">
+  <defs>
+    <linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"   stop-color="#030303"/>
+      <stop offset="0.7" stop-color="#0c0c0c"/>
+      <stop offset="1"   stop-color="#141210"/>
+    </linearGradient>
+    <linearGradient id="asfalto" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2e2a26"/>
+      <stop offset="1" stop-color="#101010"/>
+    </linearGradient>
+    <radialGradient id="horizonte" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#d4af37" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#d4af37" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fugaz" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="marco"><rect width="600" height="150" rx="12"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#marco)">
+    <!-- Cielo y suelo -->
+    <rect width="600" height="92" fill="url(#cielo)"/>
+    <rect y="92" width="600" height="58" fill="#080808"/>
+
+    <!-- Resplandor dorado en el horizonte -->
+    <ellipse cx="300" cy="92" rx="150" ry="32" fill="url(#horizonte)"/>
+
+    <!-- Estrellas -->
+    <circle cx="60"  cy="20" r="0.9" fill="#ffffff" opacity="0.8"/>
+    <circle cx="120" cy="55" r="0.6" fill="#cfcfcf" opacity="0.5"/>
+    <circle cx="180" cy="30" r="0.8" fill="#ffffff" opacity="0.7"/>
+    <circle cx="240" cy="14" r="0.7" fill="#ffffff" opacity="0.6"/>
+    <circle cx="330" cy="24" r="0.8" fill="#ffffff" opacity="0.7"/>
+    <circle cx="400" cy="50" r="0.6" fill="#cfcfcf" opacity="0.5"/>
+    <circle cx="470" cy="20" r="0.9" fill="#ffffff" opacity="0.8"/>
+    <circle cx="540" cy="45" r="0.7" fill="#e0e0e0" opacity="0.6"/>
+    <circle cx="90"  cy="75" r="0.5" fill="#ffffff" opacity="0.4"/>
+    <circle cx="510" cy="75" r="0.5" fill="#ffffff" opacity="0.45"/>
+    <circle cx="210" cy="70" r="0.6" fill="#d4af37" opacity="0.6"/>
+    <circle cx="430" cy="12" r="0.6" fill="#d4af37" opacity="0.6"/>
+
+    <!-- Estrella fugaz sutil -->
+    <path d="M480 20 L522 11" stroke="url(#fugaz)" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Carretera hacia el punto de fuga -->
+    <polygon points="300,92 410,150 190,150" fill="url(#asfalto)"/>
+    <!-- Bordes de la carretera -->
+    <path d="M300 92 L190 150" stroke="#9a9a9a" stroke-width="1.2" opacity="0.55"/>
+    <path d="M300 92 L410 150" stroke="#9a9a9a" stroke-width="1.2" opacity="0.55"/>
+    <!-- Línea central dorada en perspectiva -->
+    <polygon points="296,150 304,150 302.5,134 297.5,134" fill="#d4af37" opacity="0.9"/>
+    <polygon points="297.8,127 302.2,127 301.2,116 298.8,116" fill="#d4af37" opacity="0.75"/>
+    <polygon points="298.9,111 301.1,111 300.6,104 299.4,104" fill="#d4af37" opacity="0.6"/>
+    <polygon points="299.5,100.5 300.5,100.5 300.3,96.5 299.7,96.5" fill="#d4af37" opacity="0.45"/>
+
+    <!-- Título -->
+    <text x="300" y="48" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+          font-size="26" font-weight="600" letter-spacing="10" fill="#f2f2f2">ROADMAP</text>
+    <!-- Líneas doradas a los lados -->
+    <path d="M165 40 H195" stroke="#d4af37" stroke-width="1" opacity="0.6"/>
+    <path d="M405 40 H435" stroke="#d4af37" stroke-width="1" opacity="0.6"/>
+    <!-- Subtítulo -->
+    <text x="300" y="72" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+          font-size="9" font-weight="500" letter-spacing="6" fill="#9a9a9a">HOJA DE RUTA</text>
+    <circle cx="218" cy="69" r="1" fill="#d4af37" opacity="0.7"/>
+    <circle cx="382" cy="69" r="1" fill="#d4af37" opacity="0.7"/>
+  </g>
+
+  <!-- Borde del banner -->
+  <rect x="0.5" y="0.5" width="599" height="149" rx="12" fill="none" stroke="#3a3a3a"/>
+</svg>

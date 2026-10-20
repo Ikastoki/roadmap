@@ -1,0 +1,71 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="150" height="30" viewBox="0 0 150 30"
+     role="img" aria-label="Entrevistas">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080a0c"/>
+      <stop offset="1" stop-color="#171c21"/>
+    </linearGradient>
+
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d6dfe7"/>
+      <stop offset="1" stop-color="#8597a6"/>
+    </linearGradient>
+
+    <clipPath id="clip">
+      <rect width="150" height="30" rx="5"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="150" height="30" fill="url(#bg)"/>
+
+    <!-- Puntos decorativos sutiles -->
+    <g fill="#b8c5d0">
+      <circle cx="7" cy="6" r="0.65" opacity="0.55"/>
+      <circle cx="21" cy="23" r="0.55" opacity="0.35"/>
+      <circle cx="32" cy="4" r="0.45" opacity="0.3"/>
+      <circle cx="44" cy="26" r="0.65" opacity="0.4"/>
+      <circle cx="58" cy="5" r="0.5" opacity="0.35"/>
+      <circle cx="72" cy="25" r="0.45" opacity="0.3"/>
+      <circle cx="87" cy="5" r="0.6" opacity="0.35"/>
+      <circle cx="101" cy="25" r="0.55" opacity="0.4"/>
+      <circle cx="116" cy="5" r="0.45" opacity="0.3"/>
+      <circle cx="130" cy="24" r="0.6" opacity="0.4"/>
+      <circle cx="143" cy="7" r="0.55" opacity="0.45"/>
+      <circle cx="141" cy="17" r="0.4" opacity="0.25"/>
+      <circle cx="5" cy="18" r="0.4" opacity="0.3"/>
+    </g>
+
+    <!-- Maletín -->
+    <g transform="translate(10,7)"
+       fill="none"
+       stroke="url(#silver)"
+       stroke-width="1.25"
+       stroke-linecap="round"
+       stroke-linejoin="round">
+      <path d="M4 5 V3.5 Q4 2 5.5 2 H9.5 Q11 2 11 3.5 V5"/>
+      <rect x="1" y="5" width="13" height="9" rx="1.3"
+            fill="#9eafbd" fill-opacity="0.08"/>
+      <path d="M1 8 H14"/>
+      <path d="M7.5 7 V9.5"/>
+    </g>
+
+    <!-- Texto -->
+    <text x="34" y="19.2"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="10.5"
+          font-weight="600"
+          letter-spacing="1.05"
+          fill="#dce4eb">ENTREVISTAS</text>
+  </g>
+
+  <!-- Borde estático -->
+  <rect x="0.5" y="0.5"
+        width="149" height="29" rx="5"
+        fill="none"
+        stroke="#39434c"
+        stroke-width="1"/>
+</svg>

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 150" width="600" height="150" role="img" aria-label="Roadmap">
+  <defs>
+    <linearGradient id="cielo-claro" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"   stop-color="#f8f9fa"/>
+      <stop offset="0.7" stop-color="#e9ecef"/>
+      <stop offset="1"   stop-color="#dee2e6"/>
+    </linearGradient>
+    <linearGradient id="asfalto-claro" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6b7280"/>
+      <stop offset="1" stop-color="#4b5563"/>
+    </linearGradient>
+    <radialGradient id="horizonte-claro" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#d4af37" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#d4af37" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fugaz-claro" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c5a030" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#c5a030" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="marco-claro"> 
+      <rect width="600" height="150" rx="12"/> 
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#marco-claro)">
+    <!-- Cielo y suelo -->
+    <rect width="600" height="92" fill="url(#cielo-claro)"/>
+    <rect y="92" width="600" height="58" fill="#d1d5db"/>
+    
+    <!-- Resplandor dorado en el horizonte -->
+    <ellipse cx="300" cy="92" rx="150" ry="32" fill="url(#horizonte-claro)"/>
+    
+    <!-- Estrellas (Adaptadas a tonos grises sutiles para modo claro) -->
+    <circle cx="60"  cy="20" r="0.9" fill="#6b7280" opacity="0.4"/>
+    <circle cx="120" cy="55" r="0.6" fill="#9ca3af" opacity="0.3"/>
+    <circle cx="180" cy="30" r="0.8" fill="#6b7280" opacity="0.35"/>
+    <circle cx="240" cy="14" r="0.7" fill="#6b7280" opacity="0.3"/>
+    <circle cx="330" cy="24" r="0.8" fill="#6b7280" opacity="0.35"/>
+    <circle cx="400" cy="50" r="0.6" fill="#9ca3af" opacity="0.3"/>
+    <circle cx="470" cy="20" r="0.9" fill="#6b7280" opacity="0.4"/>
+    <circle cx="540" cy="45" r="0.7" fill="#9ca3af" opacity="0.35"/>
+    <circle cx="90"  cy="75" r="0.5" fill="#6b7280" opacity="0.25"/>
+    <circle cx="510" cy="75" r="0.5" fill="#6b7280" opacity="0.25"/>
+    <circle cx="210" cy="70" r="0.6" fill="#c5a030" opacity="0.7"/>
+    <circle cx="430" cy="12" r="0.6" fill="#c5a030" opacity="0.7"/>
+    
+    <!-- Estrella fugaz sutil (Dorada) -->
+    <path d="M480 20 L522 11" stroke="url(#fugaz-claro)" stroke-width="1" stroke-linecap="round"/>
+    
+    <!-- Carretera hacia el punto de fuga -->
+    <polygon points="300,92 410,150 190,150" fill="url(#asfalto-claro)"/>
+    
+    <!-- Bordes de la carretera -->
+    <path d="M300 92 L190 150" stroke="#374151" stroke-width="1.2" opacity="0.6"/>
+    <path d="M300 92 L410 150" stroke="#374151" stroke-width="1.2" opacity="0.6"/>
+    
+    <!-- Línea central dorada en perspectiva -->
+    <polygon points="296,150 304,150 302.5,134 297.5,134" fill="#c5a030" opacity="0.95"/>
+    <polygon points="297.8,127 302.2,127 301.2,116 298.8,116" fill="#c5a030" opacity="0.85"/>
+    <polygon points="298.9,111 301.1,111 300.6,104 299.4,104" fill="#c5a030" opacity="0.7"/>
+    <polygon points="299.5,100.5 300.5,100.5 300.3,96.5 299.7,96.5" fill="#c5a030" opacity="0.55"/>
+    
+    <!-- Título -->
+    <text x="300" y="48" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+          font-size="26" font-weight="600" letter-spacing="10" fill="#111827">ROADMAP</text>
+    
+    <!-- Líneas doradas a los lados -->
+    <path d="M165 40 H195" stroke="#c5a030" stroke-width="1" opacity="0.8"/>
+    <path d="M405 40 H435" stroke="#c5a030" stroke-width="1" opacity="0.8"/>
+    
+    <!-- Subtítulo -->
+    <text x="300" y="72" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+          font-size="9" font-weight="500" letter-spacing="6" fill="#4b5563">HOJA DE RUTA</text>
+    <circle cx="218" cy="69" r="1" fill="#c5a030" opacity="0.9"/>
+    <circle cx="382" cy="69" r="1" fill="#c5a030" opacity="0.9"/>
+  </g>
+  
+  <!-- Borde del banner -->
+  <rect x="0.5" y="0.5" width="599" height="149" rx="12" fill="none" stroke="#d1d5db"/>
+</svg>

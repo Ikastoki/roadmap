@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 30" width="180" height="30" role="img" aria-label="Java + Angular">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0"   stop-color="#050505"/>
+      <stop offset="0.5" stop-color="#141414"/>
+      <stop offset="1"   stop-color="#0a0a0a"/>
+    </linearGradient>
+    <!-- Nebulosa verde Java (backend) -->
+    <radialGradient id="nebulosaVerde" cx="0.18" cy="0.5" r="0.55">
+      <stop offset="0" stop-color="#6DB33F" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#6DB33F" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Nebulosa roja Angular (frontend) -->
+    <radialGradient id="nebulosaRoja" cx="0.82" cy="0.5" r="0.55">
+      <stop offset="0" stop-color="#DD0031" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#DD0031" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+    <clipPath id="recorte"><rect width="180" height="30" rx="6"/></clipPath>
+  </defs>
+
+  <style>
+    @keyframes snakeVerde { from { stroke-dashoffset: 0;    } to { stroke-dashoffset: -406; } }
+    @keyframes snakeRojo  { from { stroke-dashoffset: -203; } to { stroke-dashoffset: -609; } }
+    .snake-verde, .snake-rojo { stroke-dasharray: 45 361; animation-duration: 5s; animation-timing-function: linear; animation-iteration-count: infinite; }
+    .snake-verde { animation-name: snakeVerde; }
+    .snake-rojo  { animation-name: snakeRojo;  }
+  </style>
+
+  <g clip-path="url(#recorte)">
+    <rect width="180" height="30" fill="url(#bg)"/>
+    <rect width="180" height="30" fill="url(#nebulosaVerde)"/>
+    <rect width="180" height="30" fill="url(#nebulosaRoja)"/>
+
+    <!-- Estrellas -->
+    <circle cx="40"  cy="6"  r="0.7" fill="#ffffff" opacity="0.8"/>
+    <circle cx="60"  cy="24" r="0.5" fill="#cfcfcf" opacity="0.5"/>
+    <circle cx="90"  cy="5"  r="0.8" fill="#ffffff" opacity="0.9"/>
+    <circle cx="120" cy="24" r="0.5" fill="#bdbdbd" opacity="0.5"/>
+    <circle cx="140" cy="7"  r="0.7" fill="#ffffff" opacity="0.7"/>
+    <circle cx="75"  cy="10" r="0.4" fill="#ffffff" opacity="0.4"/>
+    <circle cx="105" cy="20" r="0.4" fill="#9e9e9e" opacity="0.5"/>
+    <circle cx="32"  cy="22" r="0.6" fill="#6DB33F" opacity="0.7"/>
+    <circle cx="148" cy="23" r="0.6" fill="#DD0031" opacity="0.7"/>
+  </g>
+
+  <!-- Borde base -->
+  <rect x="0.5" y="0.5" width="179" height="29" rx="6" fill="none" stroke="#3d3d3d"/>
+
+  <!-- Snake verde (Java) + Snake rojo (Angular) en persecución -->
+  <g fill="none" stroke-linecap="round">
+    <rect class="snake-verde" x="0.5" y="0.5" width="179" height="29" rx="6" stroke="#6DB33F" stroke-width="2.2" opacity="0.4" filter="url(#glow)"/>
+    <rect class="snake-rojo"  x="0.5" y="0.5" width="179" height="29" rx="6" stroke="#DD0031" stroke-width="2.2" opacity="0.4" filter="url(#glow)"/>
+    <rect class="snake-verde" x="0.5" y="0.5" width="179" height="29" rx="6" stroke="#8ed35f" stroke-width="1.1"/>
+    <rect class="snake-rojo"  x="0.5" y="0.5" width="179" height="29" rx="6" stroke="#ff4d6d" stroke-width="1.1"/>
+  </g>
+
+  <!-- Icono Java: taza de café con vapor -->
+  <g transform="translate(9,8)" fill="none" stroke="#6DB33F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Vapor -->
+    <path d="M4.6 4.8 c0.8 -0.8 -0.8 -1.6 0 -2.4 c0.8 -0.8 -0.8 -1.6 0 -2.4" stroke-width="1"/>
+    <path d="M7.4 4.8 c0.8 -0.8 -0.8 -1.6 0 -2.4" stroke-width="1"/>
+    <!-- Cuerpo de la taza -->
+    <path d="M2.2 6.2 h8.6 v2.3 a4.3 3.6 0 0 1 -8.6 0 z" fill="#6DB33F" fill-opacity="0.15"/>
+    <!-- Asa -->
+    <path d="M10.8 6.8 h1 a1.7 1.7 0 0 1 0 3.4 h-1.2"/>
+    <!-- Platillo -->
+    <path d="M1.6 12.6 q5.2 1.6 10.4 0"/>
+  </g>
+
+  <!-- Icono Angular: escudo con A -->
+  <g transform="translate(154,7)" fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M8 0.8 L14.6 3 L13.5 11 L8 14.6 L2.5 11 L1.4 3 Z" stroke="#DD0031" stroke-width="1.2" fill="#DD0031" fill-opacity="0.15"/>
+    <path d="M8 3.6 L11 10.6 M8 3.6 L5 10.6 M6.1 8.6 H9.9" stroke="#f2f2f2" stroke-width="1.1"/>
+  </g>
+
+  <!-- Texto -->
+  <text x="90" y="19.5" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="11.5" font-weight="600" letter-spacing="1" fill="#f2f2f2">JAVA <tspan fill="#d4af37">+</tspan> ANGULAR</text>
+</svg>
