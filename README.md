@@ -67,8 +67,14 @@ Lenguajes y tecnologías para construir interfaces web, gestionar la interacció
 
 [![html](https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white)](./path/technologies/frontend/HTML/README.md)
 [![css](https://img.shields.io/badge/css-663399?style=for-the-badge&logo=CSS&logoColor=white)](./path/technologies/frontend/CSS/README.md)
-[![javascript](https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)]()
-[![typescript](https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)]()
+[![javascript](https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](./path/technologies/frontend/JavaScript/README.md)
+[![typescript](https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](./path/technologies/frontend/TypeScript/README.md)
+
+[![markdown](https://img.shields.io/badge/markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)]()
+[![emmet](https://img.shields.io/badge/emmet-000000?style=for-the-badge&logo=markdown&logoColor=white)]()
+[![sass](https://img.shields.io/badge/sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](./path/technologies/frontend/SASS/README.md)
+
+[![angular](https://img.shields.io/badge/angular-FF0037?style=for-the-badge&logo=angular&logoColor=white)](./path/technologies/frontend/Angular/README.md)
 
 ### Back-End
 
@@ -115,4 +121,5 @@ Conocimientos que amplían las capacidades técnicas y facilitan el aprendizaje 
 
 [![inglés](./img/badge/ingles-badge.svg)]()
 [![ia](./img/badge/ia-badge.svg)]()
-[![Entrevistas](./img/badge/entrevistas-badge.svg)]() 
+[![Entrevistas](./img/badge/entrevistas-badge.svg)]()
+
