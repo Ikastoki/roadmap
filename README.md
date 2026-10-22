@@ -65,15 +65,18 @@ Esta sección reúne guías de estudio centradas en lenguajes de programación, 
 
 Lenguajes y tecnologías para construir interfaces web, gestionar la interacción con el usuario y desarrollar experiencias accesibles y mantenibles.
 
+
+
 [![html](https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white)](./path/technologies/frontend/HTML/README.md)
 [![css](https://img.shields.io/badge/css-663399?style=for-the-badge&logo=CSS&logoColor=white)](./path/technologies/frontend/CSS/README.md)
 [![javascript](https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](./path/technologies/frontend/JavaScript/README.md)
 [![typescript](https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](./path/technologies/frontend/TypeScript/README.md)
 
-[![markdown](https://img.shields.io/badge/markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)]()
-[![emmet](https://img.shields.io/badge/emmet-000000?style=for-the-badge&logo=markdown&logoColor=white)]()
-[![sass](https://img.shields.io/badge/sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](./path/technologies/frontend/SASS/README.md)
+[![markdown](https://img.shields.io/badge/markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)](./path/technologies/frontend/Markdown/README.md)
+[![emmet](./img/badge/emmet-badge.svg)](./path/technologies/frontend/Emmet/README.md)
 
+
+[![sass](https://img.shields.io/badge/sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](./path/technologies/frontend/SASS/README.md)
 [![angular](https://img.shields.io/badge/angular-FF0037?style=for-the-badge&logo=angular&logoColor=white)](./path/technologies/frontend/Angular/README.md)
 
 ### Back-End
@@ -90,7 +93,8 @@ Lenguajes, frameworks y tecnologías para implementar la lógica de negocio, exp
 
 Sistemas y herramientas para almacenar, consultar, transformar y gestionar datos, tanto en entornos relacionales como no relacionales.
 
-[![postgresql](https://img.shields.io/badge/postgresql-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![sql](./img/badge/sql-badge.svg)](./path/technologies/data/SQL/README.md)
+[![postgresql](https://img.shields.io/badge/postgresql-316192?style=for-the-badge&logo=postgresql&logoColor=white)]()
 [![sqlite](https://img.shields.io/badge/sqlite-%2307405E?style=for-the-badge&logo=sqlite&logoColor=white)]()
 [![supabase](https://img.shields.io/badge/supabase-333?style=for-the-badge&logo=supabase&logoColor=233ECF8E)]()
 
@@ -103,7 +107,7 @@ Herramientas y prácticas para desplegar, operar, observar y mantener sistemas d
 
 [![linux](https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=Linux&logoColor=black)]()
 [![bash|87](https://img.shields.io/badge/bash-4EAA25?style=for-the-badge&logo=GNU%20Bash&logoColor=white)]()
-[![git](https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=Git&logoColor=white)]()
+[![git](https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=Git&logoColor=white)](./path/technologies/sre/Git/README.md)
 [![github-actions](https://img.shields.io/badge/github_actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)]()
 
 [![ubuntu](https://img.shields.io/badge/ubuntu_server-%23E95420?style=for-the-badge&logo=ubuntu&logoColor=white)]()
