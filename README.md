@@ -65,7 +65,7 @@ Esta sección reúne guías de estudio centradas en lenguajes de programación, 
 
 Lenguajes y tecnologías para construir interfaces web, gestionar la interacción con el usuario y desarrollar experiencias accesibles y mantenibles.
 
-[![html](https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()
+[![html](https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white)](./path/technologies/frontend/HTML/README.md)
 [![css](https://img.shields.io/badge/css-663399?style=for-the-badge&logo=CSS&logoColor=white)]()
 [![javascript](https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)]()
 [![typescript](https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)]()
