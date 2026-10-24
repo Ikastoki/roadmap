@@ -94,12 +94,12 @@ Lenguajes, frameworks y tecnologías para implementar la lógica de negocio, exp
 Sistemas y herramientas para almacenar, consultar, transformar y gestionar datos, tanto en entornos relacionales como no relacionales.
 
 [![sql](./img/badge/sql-badge.svg)](./path/technologies/data/SQL/README.md)
-[![postgresql](https://img.shields.io/badge/postgresql-316192?style=for-the-badge&logo=postgresql&logoColor=white)]()
-[![sqlite](https://img.shields.io/badge/sqlite-%2307405E?style=for-the-badge&logo=sqlite&logoColor=white)]()
-[![supabase](https://img.shields.io/badge/supabase-333?style=for-the-badge&logo=supabase&logoColor=233ECF8E)]()
+[![postgresql](https://img.shields.io/badge/postgresql-316192?style=for-the-badge&logo=postgresql&logoColor=white)](./path/technologies/data/PostgreSQL/README.md)
+<!-- [![sqlite](https://img.shields.io/badge/sqlite-%2307405E?style=for-the-badge&logo=sqlite&logoColor=white)]()
+[![supabase](https://img.shields.io/badge/supabase-333?style=for-the-badge&logo=supabase&logoColor=233ECF8E)]() -->
 
-[![mongodb](https://img.shields.io/badge/mongodb-47A248?style=for-the-badge&logo=mongodb&logoColor=white)]()
-[![redis](https://img.shields.io/badge/redis-%23DD0031?style=for-the-badge&logo=redis&logoColor=white)]()
+[![mongodb](https://img.shields.io/badge/mongodb-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](./path/technologies/data/MongoDB/README.md)
+<!-- [![redis](https://img.shields.io/badge/redis-%23DD0031?style=for-the-badge&logo=redis&logoColor=white)]() -->
 
 ### SRE
 
