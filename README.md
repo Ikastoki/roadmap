@@ -106,18 +106,18 @@ Sistemas y herramientas para almacenar, consultar, transformar y gestionar datos
 Herramientas y prácticas para desplegar, operar, observar y mantener sistemas de software fiables, automatizados y escalables.
 
 [![linux](https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=Linux&logoColor=black)]()
-[![bash|87](https://img.shields.io/badge/bash-4EAA25?style=for-the-badge&logo=GNU%20Bash&logoColor=white)]()
+<!-- [![bash|87](https://img.shields.io/badge/bash-4EAA25?style=for-the-badge&logo=GNU%20Bash&logoColor=white)]() -->
 [![git](https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=Git&logoColor=white)](./path/technologies/sre/Git/README.md)
-[![github-actions](https://img.shields.io/badge/github_actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)]()
+<!-- [![github-actions](https://img.shields.io/badge/github_actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)]() -->
 
-[![ubuntu](https://img.shields.io/badge/ubuntu_server-%23E95420?style=for-the-badge&logo=ubuntu&logoColor=white)]()
+<!-- [![ubuntu](https://img.shields.io/badge/ubuntu_server-%23E95420?style=for-the-badge&logo=ubuntu&logoColor=white)]()
 [![nginx](https://img.shields.io/badge/nginx-%23009639?style=for-the-badge&logo=nginx&logoColor=white)]()
 [![apache-http-server](https://img.shields.io/badge/apache-%23D42029?style=for-the-badge&logo=apache&logoColor=white)]()
-[![apache-tomcat](https://img.shields.io/badge/apache_tomcat-%23F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=black)]()
+[![apache-tomcat](https://img.shields.io/badge/apache_tomcat-%23F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=black)]() -->
 
-[![docker](https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white)]()
-[![kubernetes](https://img.shields.io/badge/kubernetes-%23326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)]()
-[![terraform](https://img.shields.io/badge/terraform-%237B42BC?style=for-the-badge&logo=terraform&logoColor=white)]()
+[![docker](https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white)](./path/technologies/sre/Docker/README.md)
+[![kubernetes](https://img.shields.io/badge/kubernetes-%23326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](./path/technologies/sre/Kubernetes/README.md)
+[![terraform](https://img.shields.io/badge/terraform-%237B42BC?style=for-the-badge&logo=terraform&logoColor=white)](./path/technologies/sre/Terraform/README.md)
 
 ### Habilidades complementarias
 
@@ -125,5 +125,6 @@ Conocimientos que amplían las capacidades técnicas y facilitan el aprendizaje 
 
 [![inglés](./img/badge/ingles-badge.svg)]()
 [![ia](./img/badge/ia-badge.svg)]()
-[![Entrevistas](./img/badge/entrevistas-badge.svg)]()
+<!-- [![Entrevistas](./img/badge/entrevistas-badge.svg)]() -->
+
 
