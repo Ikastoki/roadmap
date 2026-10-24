@@ -123,8 +123,8 @@ Herramientas y prácticas para desplegar, operar, observar y mantener sistemas d
 
 Conocimientos que amplían las capacidades técnicas y facilitan el aprendizaje continuo, la comunicación y el aprovechamiento responsable de herramientas de inteligencia artificial.
 
-[![inglés](./img/badge/ingles-badge.svg)]()
-[![ia](./img/badge/ia-badge.svg)]()
+[![inglés](./img/badge/ingles-badge.svg)](./path/technologies/skills/Ingles/README.md)
+[![ia](./img/badge/ia-badge.svg)](./path/technologies/skills/IA/README.md)
 <!-- [![Entrevistas](./img/badge/entrevistas-badge.svg)]() -->
 
 
