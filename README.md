@@ -83,8 +83,8 @@ Lenguajes y tecnologías para construir interfaces web, gestionar la interacció
 
 Lenguajes, frameworks y tecnologías para implementar la lógica de negocio, exponer servicios y desarrollar aplicaciones del lado del servidor.
 
-[![java](https://img.shields.io/badge/java-fff?style=for-the-badge&logo=OpenJDK&logoColor=black)]()
-[![spring](https://img.shields.io/badge/spring-%236DB33F?style=for-the-badge&logo=spring&logoColor=white)]()
+[![java](https://img.shields.io/badge/java-fff?style=for-the-badge&logo=OpenJDK&logoColor=black)](./path/technologies/backend/Java/README.md)
+[![spring](https://img.shields.io/badge/spring-%236DB33F?style=for-the-badge&logo=spring&logoColor=white)](./path/technologies/backend/Spring/README.md)
 <!-- [![quarkus](https://img.shields.io/badge/quarkus-%234695EB?style=for-the-badge&logo=quarkus&logoColor=white)]()
 ![microservicios](https://img.shields.io/badge/🖧_microservicios-%230066CC?style=for-the-badge)
 [![kafka](https://img.shields.io/badge/apache_kafka-%23D14E00?style=for-the-badge&logo=apachekafka&logoColor=white)]() -->
