@@ -30,7 +30,7 @@ Esta sección reúne los conocimientos teóricos y los principios fundamentales 
 
 Fundamentos de los sistemas informáticos, las redes, la infraestructura y la seguridad que permiten comprender cómo se ejecuta, comunica y protege el software.
 
-[![informática](https://img.shields.io/badge/sistema_informático-000000?style=for-the-badge&logo=markdown&logoColor=white)]()
+[![informática](https://img.shields.io/badge/sistema_informático-000000?style=for-the-badge&logo=markdown&logoColor=white)](./path/fundamentals/Sistemas/Informatica/README.md)
 [![redes](https://img.shields.io/badge/redes-000000?style=for-the-badge&logo=markdown&logoColor=white)]()
 [![infraestructura](https://img.shields.io/badge/infraestructura-000000?style=for-the-badge&logo=markdown&logoColor=white)]()
 [![seguridad](https://img.shields.io/badge/seguridad-000000?style=for-the-badge&logo=markdown&logoColor=white)]()
