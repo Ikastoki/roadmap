@@ -1,0 +1,10 @@
+# Que es un servidor
+
+Un servidor es cualquier sistema — hardware, software o ambos — diseñado para proporcionar recursos, datos o servicios a otros sistemas que se le conectan, conocidos como clientes. La distinción fundamental no radica en el tipo de maquina, sino en el papel que desempeña dentro de una comunicacion en red: quien ofrece y quien consume. Un mismo equipo puede actuar simultaneamente como servidor y como cliente dependiendo del contexto, aunque en la practica los servidores suelen ser maquinas dedicadas cuya unica funcion es atender peticiones de forma continua.
+
+El modelo cliente-servidor surgio como respuesta a las limitaciones del modelo peer-to-peer, donde todos los nodos compartian responsabilidades por igual y la escalabilidad se volvia ingobernable. Al centralizar la logica de negocio, el almacenamiento o la gestion en un punto controlado, se obtiene mayor previsibilidad, seguridad y capacidad de mantener el servicio las 24 horas del dia. El servidor escucha en un puerto determinado por el protocolo que implementa — 80 para HTTP, 5432 para PostgreSQL, 22 para SSH — y responde a las solicitudes que le llegan.
+
+Existen servidores fisicos de gama alta, servidores virtuales ejecutados sobre hipervisores, contenedores que comparten el kernel del host y servicios alojados en la nube gestionados por proveedores externos. Independientemente de la forma de implementacion, todos comparten el mismo proposito: garantizar disponibilidad y rendimiento en la entrega de servicios. Un servidor que cae afecta directamente a todos los clientes que dependen de el, lo cual convierte la fiabilidad en el rasgo mas definitorio de este tipo de sistemas.
+
+El concepto de servidor no se limita a la infraestructura de red. En el ambito del desarrollo de software, un servidor se refiere al proceso que recibe peticiones HTTP y devuelve respuestas, pero ambos significados comparten la misma esencia: un componente que sirve frente a otro que consume. Para la administracion de sistemas, sin embargo, el termino se centra en la capa de infraestructura, y es en ese contexto donde se desarrolla el resto de este modulo.
+
