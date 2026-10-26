@@ -33,7 +33,7 @@ Fundamentos de los sistemas informáticos, las redes, la infraestructura y la se
 [![informática](https://img.shields.io/badge/sistema_informático-000000?style=for-the-badge&logo=markdown&logoColor=white)](./path/fundamentals/Sistemas/Informatica/README.md)
 [![redes](https://img.shields.io/badge/redes-000000?style=for-the-badge&logo=markdown&logoColor=white)](./path/fundamentals/Sistemas/Redes/README.md)
 [![infraestructura](https://img.shields.io/badge/infraestructura-000000?style=for-the-badge&logo=markdown&logoColor=white)](./path/fundamentals/Sistemas/Infraestructura/README.md)
-[![seguridad](https://img.shields.io/badge/seguridad-000000?style=for-the-badge&logo=markdown&logoColor=white)]()
+[![seguridad](https://img.shields.io/badge/seguridad-000000?style=for-the-badge&logo=markdown&logoColor=white)](./path/fundamentals/Sistemas/Seguridad/README.md)
 
 ### Ingeniería del software
 
